@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Meu Currículo</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			background-color: #f7f7f7;
+		}
+
+		h1 {
+			font-size: 32px;
+			color: #333;
+			margin-top: 0;
+			text-align: center;
+		}
+
+		h2 {
+			font-size: 24px;
+			color: #333;
+			margin-bottom: 10px;
+		}
+
+		p {
+			margin: 0;
+			line-height: 1.5;
+		}
+
+		ul {
+			list-style: none;
+			padding: 0;
+			margin: 0;
+		}
+
+		li {
+			margin-bottom: 5px;
+		}
+
+		.skills {
+			display: flex;
+			flex-wrap: wrap;
+		}
+
+		.skill {
+			background-color: #eee;
+			padding: 5px 10px;
+			border-radius: 5px;
+			margin-right: 5px;
+			margin-bottom: 5px;
+			font-size: 14px;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<h1>Meu Currículo</h1>
+	</header>
+
+	<main>
+		<section>
+			<h2>Informações Pessoais</h2>
+			<p><strong>Nome:</strong> João da Silva</p>
+			<p><strong>E-mail:</strong> joao.silva@gmail.com</p>
+			<p><strong>Telefone:</strong> (11) 99999-9999</p>
+		</section>
+
+		<section>
+			<h2>Formação Acadêmica</h2>
+			<ul>
+				<li><strong>Graduação em Ciência da Computação</strong> - Universidade de São Paulo (USP)</li>
+				<li><strong>Pós-Graduação em Desenvolvimento de Software</strong> - Fundação Getúlio Vargas (FGV)</li>
+			</ul>
+		</section>
+
+		<section>
+			<h2>Habilidades</h2>
+			<div class="skills">
+				<div class="skill">HTML</div>
+				<div class="skill">CSS</div>
+				<div class="skill">JavaScript</div>
+				<div class="skill">Salesforce</div>
+				<div class="skill">SQL</div>
+				<div class="skill">Python</div>
+			</div>
+		</section>
+	</main>
+
+	<footer>
+		<p>Copyright © 2023</p>
+	</footer>
+</body>
+</html>
